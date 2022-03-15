@@ -1,10 +1,12 @@
 - [:octocat: 首页](/README)
 - :memo: 目录
-   - redis:
+   - redis
        - [第1节：缓存](/md/redis/谈谈缓存.md)
        - [第2节：缓存一致性算法](/md/redis/缓存一致性算法.md)
        - [第3节：redis数据结构](/md/redis/redis数据结构.md)
-   
+   - JVM
+       -[第1节：手写JVM前置知识](/md/JVM/1.手写jvm前置知识.md)
+       -[第2节：类加载器，双亲委派机制、spi](/md/JVM/2.类加载器、双亲委派、SPI.md)
 [//]: # (   - 第2章：基础功能)
 
 [//]: # (   )
