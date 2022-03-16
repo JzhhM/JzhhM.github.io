@@ -5,6 +5,7 @@
        - [第2节：缓存一致性算法](/md/redis/缓存一致性算法.md)
        - [第3节：redis数据结构](/md/redis/redis数据结构.md)
        - [第4节：缓存雪崩、穿透、击穿](/md/redis/4.缓存雪崩、穿透、击穿.md)
+       - [第5节：Redis集群、持久化、主从](/md/redis/5.Redis哨兵、持久化、主从、LUR.md)
    - JVM
        - [第1节：手写JVM前置知识](/md/JVM/1.手写jvm前置知识.md)
        - [第2节：类加载器，双亲委派机制、spi](/md/JVM/2.类加载器、双亲委派、SPI.md)
