@@ -52,6 +52,7 @@ BitMap：位图，用一个bit位来标记某个元素对应的Value，而key就
 
 在BitMap中每一位都表示一个数，0表示不存在,1表示存在
 
+
 现在需要表示{1,2,4,6}
 ![img.png](../../assets/img/redis/Chapter_3/BitMap_1.png)
 
