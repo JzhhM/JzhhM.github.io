@@ -20,64 +20,64 @@
 </head>
 <body>
 <div id="app"></div>
-<!--<script>-->
-<!--    var gitalkConfig = {-->
-<!--      clientID: '1a0bdc55e7dc1b6928bb',-->
-<!--      clientSecret: '5c5e57149d287b2ef207aa7edb44b76cf85f4dae',-->
-<!--      repo: 'JzhhM.github.io.git',-->
-<!--      owner: 'JzhhM',-->
-<!--      admin: ["JzhhM"],-->
-<!--      distractionFreeMode: false,-->
-<!--      // proxy: "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"-->
-<!--    };-->
-<!--    window.$docsify = {-->
-<!--      name: 'stack',-->
-<!--      repo: 'https://github.com/JzhhM/JzhhM.github.io.git',-->
-<!--      auto2top: true,-->
-<!--      coverpage: true,-->
-<!--      loadSidebar: true,-->
-<!--      maxLevel: 4,-->
-<!--      subMaxLevel: 2,-->
-<!--      search: {-->
-<!--        paths: 'auto',-->
-<!--        placeholder: '🔍 Type to search ',-->
-<!--        noData: '😞 No Results! ',-->
-<!--        depth: 6-->
-<!--      },-->
-<!--      pagination: {-->
-<!--        previousText: 'PREVIOUS',-->
-<!--        nextText: 'NEXT',-->
-<!--        crossChapter: true-->
-<!--      },-->
-<!--      plugins: [-->
-<!--        function (hook, vm) {-->
-<!--          hook.doneEach(function() {-->
-<!--            var label, domObj, main, divEle, gitalk;-->
-<!--            label = md5(decodeURI(vm.route.path.split("/").pop()));-->
-<!--            domObj = Docsify.dom;-->
-<!--            main = domObj.getNode("#main");-->
-
-<!--            Array.apply(-->
-<!--              null,-->
-<!--              document.querySelectorAll("div.gitalk-container")-->
-<!--            ).forEach(function(ele) {-->
-<!--              ele.remove();-->
-<!--            });-->
-<!--      -->
-<!--            divEle = domObj.create("div");-->
-<!--            divEle.id = "gitalk-container-" + label;-->
-<!--            divEle.className = "gitalk-container";-->
-<!--            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";-->
-<!--            domObj.appendTo(domObj.find(".content"), divEle);-->
-<!--            gitalk = new Gitalk(-->
-<!--              Object.assign(gitalkConfig, { id: !label ? "home" : label })-->
-<!--            );-->
-<!--            gitalk.render("gitalk-container-" + label);-->
-<!--          });-->
-<!--        }-->
-<!--      ]-->
-<!--    }                                 -->
-<!--  </script>-->
+<script>
+    // var gitalkConfig = {
+    //   clientID: '1a0bdc55e7dc1b6928bb',
+    //   clientSecret: '5c5e57149d287b2ef207aa7edb44b76cf85f4dae',
+    //   repo: 'JzhhM.github.io.git',
+    //   owner: 'JzhhM',
+    //   admin: ["JzhhM"],
+    //   distractionFreeMode: false,
+    //   // proxy: "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
+    // };
+    window.$docsify = {
+      name: 'stack',
+      repo: 'https://github.com/JzhhM/JzhhM.github.io.git',
+      auto2top: true,
+      coverpage: true,
+      loadSidebar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 Type to search ',
+        noData: '😞 No Results! ',
+        depth: 6
+      },
+      pagination: {
+        previousText: 'PREVIOUS',
+        nextText: 'NEXT',
+        crossChapter: true
+      },
+      // plugins: [
+      //   function (hook, vm) {
+      //     hook.doneEach(function() {
+      //       var label, domObj, main, divEle, gitalk;
+      //       label = md5(decodeURI(vm.route.path.split("/").pop()));
+      //       domObj = Docsify.dom;
+      //       main = domObj.getNode("#main");
+      //
+      //       Array.apply(
+      //         null,
+      //         document.querySelectorAll("div.gitalk-container")
+      //       ).forEach(function(ele) {
+      //         ele.remove();
+      //       });
+      //
+      //       // divEle = domObj.create("div");
+      //       // divEle.id = "gitalk-container-" + label;
+      //       // divEle.className = "gitalk-container";
+      //       // divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+      //       // domObj.appendTo(domObj.find(".content"), divEle);
+      //       // gitalk = new Gitalk(
+      //       //   Object.assign(gitalkConfig, { id: !label ? "home" : label })
+      //       // );
+      //       // gitalk.render("gitalk-container-" + label);
+      //     });
+      //   }
+      // ]
+    }
+  </script>
 
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
