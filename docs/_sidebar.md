@@ -14,6 +14,8 @@
        - [第4节：JVM内存模型与操作心痛内存模型](/md/JVM/4.JVM内存模型与操作系统内存模型.md)
    - Spring 源码分析
        - [第1节：bean的生命周期](/md/spring/1.bean的生命周期.md)
+   - 杂七杂八
+       - [第1节: 基于springBoot实现分库分表路由插件](/md/other/1.基于springBoot实现分库分表路由插件.md)
      
 
 
