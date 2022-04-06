@@ -16,7 +16,7 @@
        - [第1节：bean的生命周期](/md/spring/1.bean的生命周期.md)
    - 杂七杂八
        - [第1节: 基于springBoot实现分库分表路由插件](/md/other/1.基于springBoot实现分库分表路由插件.md)
-     
+       - [第2节: DDD领域驱动设计](/md/other/2.DDD领域驱动设计.md)
 
 
 
